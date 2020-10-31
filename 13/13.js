@@ -16,6 +16,17 @@ function deleteCard(event){
     button.addEventListener('click', deleteCard, false);
  });
 
- //CREAR CARD
  
+
+ /// AGREGAR CARD
+ 
+ const evento = document.getElementById('agregarinfo');
+ const info = document.getElementById('containerDelete');
+
+ evento.addEventListener('click',()=>{
+     
+     console.log(info);
+ })
+
+
 
