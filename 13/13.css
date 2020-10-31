@@ -1,0 +1,72 @@
+*  {
+    box-sizing: border-box;
+}
+
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 60px;
+    border: 1px solid gray;
+    background-color: gray;
+    
+}
+
+.tittle1, .tittle2{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    border: 1px solid gray;
+    width: 1000px;
+    height: 850px;
+    background-color: white;
+}
+
+.containerGrid{
+    display: inline;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 10px;
+}
+
+.containerImage, .containerName, .containerData, .containerCountry, .containerText {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+}
+
+.containerText {
+    padding: 10px;
+    margin: 0;
+}
+
+.containerName{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.containerData, .containerText{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.equis {
+    font-weight: bold;
+    cursor: pointer;
+}
